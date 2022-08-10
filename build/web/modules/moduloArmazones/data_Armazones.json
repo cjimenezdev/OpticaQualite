@@ -1,0 +1,45 @@
+[    
+    {
+        "nombre": "Gafas de bloqueo", 
+        "marca": "TIJN", 
+        "modelo" : "Vintage", 
+        "color" : "Masculino", 
+        "descripcion" : "Gafas de bloqueo de luz azul", 
+        "fotografia" : "4770001234",
+        "dimensiones" : "ancho de la lente: 1.890 in", 
+        "precio_compra" : "$13,99",
+        "precio_venta": "$21,77",
+        "existencias": "300",
+        "estatus": "Activo",
+        "codigo_barras": "OQ-DFHG"
+    },
+    {
+        "nombre": "Gafas de lectura", 
+        "marca": "SIGVAN", 
+        "modelo" : "Antiluz azul", 
+        "color" : "rojo", 
+        "descripcion" : "Bloqueo de luz azul",  
+        "fotografia" : "4774456652",
+        "dimensiones" : "Aro completo", 
+        "precio_compra" : "$13,59",
+        "precio_venta": "$23,00",
+        "existencias": "200",
+        "estatus": "Activo",
+        "codigo_barras": "OQ-ABDC"
+    },
+    {
+        "nombre": "Gafas de lectura", 
+        "marca": "CCVOO", 
+        "modelo" : "UV/deslumbramiento", 
+        "color" : "Negro", 
+        "descripcion" : "Anti rayos para lectores",  
+        "fotografia" : "4775032234",
+        "dimensiones" : " ", 
+        "precio_compra": "$13.95",
+        "precio_venta": "$22.36",
+        "existencias": "100",
+        "estatus": "Activo",
+        "codigo_barras": "OQ-JKML"
+    }
+
+]

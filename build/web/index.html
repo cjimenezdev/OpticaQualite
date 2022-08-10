@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Óptica</title>
+    <link
+      rel="stylesheet"
+      href="/build/web/style/css/main.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="/build/web/style/css/sweet.css" />
+    <link
+      rel="stylesheet"
+      href="/build/web/style/css/mdb.min.css"
+      type="text/css"
+    />
+    <script src="/build/web/style/js/mdb.min.js"></script>
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <!-- Container wrapper -->
+        <div class="container">
+          <!-- Navbar brand -->
+          <a
+            class="navbar-brand me-2 font-weight-bolder"
+            href="/build/web/index.html"
+          >
+            Optica Qualite
+          </a>
+
+          <!-- Collapsible wrapper -->
+          <div class="collapse navbar-collapse" id="navbarButtonsExample">
+            <!-- Left links -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" onclick="cargarModuloClientes();"
+                  >Clientes</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="cargarModuloEmpleados();"
+                  >Empleados</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Examen de la Vista</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Productos
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#">Materiales</a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      onclick="cargarModuloArmazones();"
+                      >Armazones</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Soluciones</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <!-- Left links -->
+          </div>
+          <div class="d-flex align-items-end justify-content-end">
+            <div class="dropdown">
+              <a
+                class="dropdown-toggle d-flex align-items-center hidden-arrow"
+                href="#"
+                id="navbarDropdownMenuAvatar"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img
+                  src="/build/web/resources/person.png"
+                  class="rounded-circle"
+                  height="25"
+                  alt="Black and White Portrait of a Man"
+                  loading="lazy"
+                />
+              </a>
+              <ul
+                class="dropdown-menu dropdown-menu-end"
+                aria-labelledby="navbarDropdownMenuAvatar"
+              >
+                <li>
+                  <a
+                    class="dropdown-item"
+                    id="salir"
+                    href="#"
+                    onclick="logOut();"
+                    >Salir</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- Toggle button -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#navbarButtonsExample"
+              aria-controls="navbarButtonsExample"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+
+          <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+      </nav>
+      <!-- Navbar -->
+    </header>
+    <div class="container-fluid h-100" id="contenedorPrincipal">
+      <div class="banner"></div>
+    </div>
+    <footer class="bg-light text-center text-lg-start fixed-bottom w-100">
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2022 Copyright:
+        <a class="text-dark" href="#">Adair Ramirez</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <script src="/build/web/js/main.js"></script>
+    <script src="/build/web/js/sweetalert2.js"></script>
+  </body>
+</html>
